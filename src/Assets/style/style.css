@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+body {
+  font-family: "Poppins";
+  user-select: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 1rem;
+  background: #f9f9f9;
+}
+svg {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+.state circle {
+  fill: none;
+  stroke: #333;
+  stroke-width: 2;
+  transition: stroke 0.2s;
+}
+.state text {
+  font-size: 20px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  fill: #000;
+  transition: fill 0.2s;
+}
+.state.double circle:nth-child(2) {
+  r: 26;
+}
+.arrow {
+  stroke: #333;
+  stroke-width: 2.5;
+  fill: none;
+  marker-end: url(#arrowhead);
+  transition: stroke 0.2s;
+}
+.transition-label {
+  font-size: 14px;
+  fill: #333;
+}
+
+/* input + botón */
+.container_Input {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.input {
+  margin-top: 0.5rem;
+  padding: 8px 12px;
+  border: none;
+  outline: 2px solid #00a6fb;
+  outline-offset: 3px;
+  border-radius: 6px;
+  background: #d6f1ff;
+  font-size: 16px;
+  transition: background 0.2s, outline-offset 0.2s;
+}
+.input:focus {
+  background: #fff;
+  outline-offset: -4px;
+}
+#runBtn {
+  display: block;
+  margin-top: 0.75rem;
+  padding: 8px 16px;
+
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+}
+#runBtn:hover {
+  background: #ccc;
+}
+#result {
+  margin-top: 0.5rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+.text2 {
+  font-size: 11px;
+  color: #333;
+  margin: 10px;
+  margin-top: 20px;
+}
