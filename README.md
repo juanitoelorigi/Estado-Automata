@@ -3,9 +3,7 @@
 **Propósito:**  
 Este programa implementa un autómata finito determinista (AFD) que evalúa cadenas de entrada compuestas por los símbolos `a` y `b`. Su objetivo es determinar si una cadena específica pertenece al lenguaje definido por el autómata, visualizando paso a paso su recorrido a través de los estados y mostrando un resultado final ("aceptada" o "rechazada") según si termina en un estado de aceptación (`q2`, marcado con un doble círculo).
 
-<img src="img/AutomataFinLap.png">
-
-<img src="img/AutomataFinMovil.png">
+<img src="img/AutomataFinLap.png"><img src="img/AutomataFinMovil.png">
 
 ---
 
